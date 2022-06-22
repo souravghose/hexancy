@@ -128,3 +128,30 @@
     line-height: 52px;
     margin-bottom: 22px;
 }
+
+/* why choose us */
+#chooseUs{
+    background: url('../assets/images/choosingUs/background.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.chooseheading{
+    color: #293241;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    
+}
+#section-content{
+    margin-top: 10%;
+}
+#section-content p{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #5E5E5E;
+
+}
