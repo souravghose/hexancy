@@ -1,0 +1,86 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+/* header */
+#cover{
+    background:url('../assets/images/cover/background.png');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 0px 20px;
+}
+.logo{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+}
+.logo:hover{
+    color: #000000;
+}
+#cover-content{
+    width: 507px;
+}
+#cover-content h1{
+    font-size: 50px;
+    color: '293241';
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#cover-image .coverimg{
+    width: 550px;
+    margin-left: -20%;
+    
+}
+#cover p{
+    font-family: 'Rubik', sans-serif;
+    color: #5E5E5E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* button */
+#contactUs{
+    background: #2DCA72;
+    font-family: 'Rubik', sans-serif;
+    font-size:16px;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/* featured in */
+.section-header{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: 'Poppins',sans-serif;
+    color: #000000;
+    font-weight: 700;
+}
+.section-header::after{
+    content:'|';
+    font-weight: 100;
+    color: #707070;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#sectionHeading span.muted{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #C7C6D5;
+    
+}
+#brand{
+    background: #ffffff;
+    /* padding: 40px 67px; */
+    width: 230px;
+    height: 100px;
+    box-shadow: #E5E4E4 0px 4px 12px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
