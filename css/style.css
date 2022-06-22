@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+/* global styles */
+.mb150{
+    margin-bottom: 150px;
+}
 /* header */
 #cover{
     background:url('../assets/images/cover/background.png');
@@ -53,6 +57,7 @@
 }
 
 /* featured in */
+
 .section-header{
     font-size: 25px;
     line-height: 28px;
@@ -83,4 +88,43 @@
     box-shadow: #E5E4E4 0px 4px 12px;
     border-radius: 10px;
     margin-right: 20px;
+}
+
+/* digital marketing */
+#digitalMarketing{
+    background: url('../assets/images/digital-marketing/backgroundOne.png'), url('../assets/images/digital-marketing/backgroundTwo.png');
+    background-position:top center, right ;
+    background-repeat: no-repeat, no-repeat;
+    background-size:contain;
+}
+
+.card{
+    background: #F2FFF8;
+    border-radius: 12px;
+    width: 287px;
+    height: 240px;
+    border: none;
+    padding-left: 39px;
+    padding-bottom: 59px;
+    padding-top: 41px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+}
+.card h3{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 33px;
+    color: #293241;
+    margin-top: 20px;
+
+}
+.section-heading h3{
+    font-size: 40px;
+    color: #293241;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 22px;
 }
