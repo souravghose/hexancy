@@ -170,6 +170,9 @@ color: #5E5E5E;
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
      /* cover  */
+     .disabled-sm{
+        display: none;
+     }
      #cover{
         width: 100%;
        
