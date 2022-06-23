@@ -93,9 +93,9 @@
 /* digital marketing */
 #digitalMarketing{
     background: url('../assets/images/digital-marketing/backgroundOne.png'), url('../assets/images/digital-marketing/backgroundTwo.png');
-    background-position:top center, right ;
+    background-position:  center, right ;
     background-repeat: no-repeat, no-repeat;
-    background-size:contain;
+    background-size:contain, contain;
 }
 
 .card{
@@ -143,7 +143,7 @@
     line-height: 55px;
     
 }
-#section-content{
+#section-content {
     margin-top: 10%;
 }
 #section-content p{
