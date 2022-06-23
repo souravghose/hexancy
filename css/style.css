@@ -167,7 +167,6 @@ color: #5E5E5E;
 /* responsive restart */
 
 
-
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
      /* cover  */
@@ -180,7 +179,7 @@ color: #5E5E5E;
         order: 2;
     }
     #cover-content h1{
-        font-size: 40px;
+        font-size: 2em;
         color: #293241;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
