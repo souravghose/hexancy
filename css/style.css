@@ -6,6 +6,9 @@
 .mb150{
     margin-bottom: 150px;
 }
+body{
+    width: 100%;
+}
 /* header */
 #cover{
     background:url('../assets/images/cover/background.png');
@@ -155,3 +158,179 @@ line-height: 28px;
 color: #5E5E5E;
 
 }
+
+
+
+
+
+
+/* responsive restart */
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+     /* cover  */
+     #cover{
+        width: 100%;
+       
+    }
+    #cover-content{
+        width: 100%;
+        order: 2;
+    }
+    #cover-content h1{
+        font-size: 40px;
+        color: #293241;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-top: 1.3rem;
+    }
+   
+    #cover-image .coverimg{
+        width: 70%;
+        margin-top: 30px;
+        margin: auto
+       
+        
+    }
+    #cover p{
+        font-family: 'Rubik', sans-serif;
+        color: #5E5E5E;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+    /* featured in */
+ .brands{
+    align-items: center;
+    justify-content: center;
+}
+.section-header{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: 'Poppins',sans-serif;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.section-header::after{
+    content:'|';
+    font-weight: 100;
+    color: #707070;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#sectionHeading span.muted{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #C7C6D5;
+    
+}
+#brand{
+    background: #ffffff;
+    /* padding: 40px 67px; */
+    width: 100%;
+    height: 100px;
+    box-shadow: #E5E4E4 0px 4px 12px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+ }
+ 
+/* digital marketing */
+#digitalMarketing{
+    background: url('../assets/images/digital-marketing/backgroundOne.png'), url('../assets/images/digital-marketing/backgroundTwo.png');
+    background-position:  center, right ;
+    background-repeat: no-repeat, no-repeat;
+    background-size:contain, contain;
+}
+
+.card{
+    margin-left: 25px;
+    background: #F2FFF8;
+    border-radius: 12px;
+    width: 40%;
+    height: 200px;
+    border: none;
+    padding-left: 39px;
+    padding-bottom: 59px;
+    padding-top: 41px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+}
+.card h3{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 27px;
+    color: #293241;
+    margin-top: 20px;
+
+}
+.section-heading{
+    margin-left: 25px;
+}
+.section-heading h3{
+    font-size: 40px;
+    color: #293241;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 22px;
+}
+
+/* why choose us */
+#chooseUs{
+    background: url('../assets/images/choosingUs/background.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.chooseheading{
+    color: #293241;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    
+}
+#sectionImage img{
+    width: 90%;
+    margin-left: 10%;
+}
+#section-content {
+    margin-top: 10%;
+    margin-left: 25px;
+}
+#section-content p{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #5E5E5E;
+
+}
+
+
+  }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
