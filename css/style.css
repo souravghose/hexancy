@@ -291,9 +291,11 @@ color: #5E5E5E;
 
 /* why choose us */
 #chooseUs{
+    margin-left: 2%;
     background: url('../assets/images/choosingUs/background.png');
     background-position: top left;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .chooseheading{
     color: #293241;
