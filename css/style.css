@@ -258,7 +258,7 @@ color: #5E5E5E;
     margin-left: 25px;
     background: #F2FFF8;
     border-radius: 12px;
-    width: 40%;
+    width: 90%;
     height: 200px;
     border: none;
     padding-left: 39px;
@@ -280,8 +280,8 @@ color: #5E5E5E;
 .section-heading{
     margin-left: 25px;
 }
-.section-heading h3{
-    font-size: 40px;
+.section-heading h2{
+    font-size: 1.8em;
     color: #293241;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -299,7 +299,7 @@ color: #5E5E5E;
     color: #293241;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 2em;
     line-height: 55px;
     
 }
@@ -318,6 +318,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 28px;
 color: #5E5E5E;
+text-align: justify;
 
 }
 
