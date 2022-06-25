@@ -336,8 +336,10 @@ text-align: justify;
 
 }
 .contact-us{
-    width:90% !important;
+    width:100% !important;
+    border-radius: 0!important;
 }
+
   }
 
 /* // Small devices (landscape phones, less than 768px) */
