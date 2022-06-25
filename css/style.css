@@ -3,6 +3,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
 /* global styles */
+.color-red{
+    color: red;
+}
+.fm-rubik{
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+textarea{
+    resize: none;
+}
 .mb150{
     margin-bottom: 150px;
 }
@@ -323,8 +335,9 @@ color: #5E5E5E;
 text-align: justify;
 
 }
-
-
+.contact-us{
+    width:90% !important;
+}
   }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -390,4 +403,11 @@ text-align: justify;
     100% {
       opacity: 1;
     }
+  }
+
+  /* contact us  */
+
+  .contact-us{
+    padding: 3rem;
+    border-radius: 10px;
   }
